@@ -27,13 +27,13 @@ function Content(props) {
                     <div>
                         <ul >
                             <li>
-                                <button  onClick={(get)=> {setPl(get.target.textContent);setData(data.Wb_dev)}}>Web Development</button>
+                                <button  onClick={(e)=> {setPl(e.target.textContent);setData(data.Wb_dev)}}>Web Development</button>
                             </li>
                             <li>
-                                <button  onClick={(get)=> {setPl(get.target.textContent);setData(data.wb_design)}} >Web Design</button>
+                                <button  onClick={(e)=> {setPl(e.target.textContent);setData(data.wb_design)}} >Web Design</button>
                             </li>
                             <li>
-                                <button  onClick={(get)=> {setPl(get.target.textContent);setData(data.Desktop_app)}} >Desktop app</button>
+                                <button  onClick={(e)=> {setPl(e.target.textContent);setData(data.Desktop_app)}} >Desktop app</button>
                             </li>
                            
                         </ul>

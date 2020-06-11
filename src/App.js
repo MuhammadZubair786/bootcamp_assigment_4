@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Vdata from './Vdata'
-import logo from './logo.svg';
+
 import Temp from './Temp'
 import './App.css';
-import Python from './Python'
+
 import Content from './Component/Data';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
   let [count,setCount]=useState(0)
   let [isDay,setDay]=useState(true)
   let[temp ,setTemp]=useState(19)
-  let[py,setPy]=useState("Python")
+  
 
 
   return (
@@ -50,7 +50,7 @@ function App() {
 
      <button onClick={() => setTemp(temp=0)}>Reset Value</button>
 
-     <Python counter="{py}"></Python> 
+ 
           
    
 
